@@ -5,7 +5,7 @@ const GetPage = async (url) => {
     const obj = {
         url: url
     }
-    const data = await axios.post('https://server-wyniki.onrender.com/htmlCode', obj);
+    const data = await axios.post('https://promotion-detector-server.onrender.com/htmlCode', obj);
     return data;
 }
 
